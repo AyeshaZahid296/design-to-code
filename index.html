@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Positivus </title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="nav-left">
+                <img src="./images/Logo.png" alt="">
+            </div>
+            <div class="nav-right nav-items-container">
+                <div class="nav-item">About Us</div>
+                <div class="nav-item">Services</div>
+                <div class="nav-item">Use Cases</div>
+                <div class="nav-item">Pricing </div>
+                <div class="nav-item">Blog</div>
+                <button class="btn-request">Request a quote</button>
+
+            </div>
+            <div class="  menu-icon" onclick="toggleMenu()">
+                <img src="./images/Burger menu icon.png" alt="">
+            </div>
+        </nav>
+
+    </header>
+    <div id="side-menu" class="side-menu">
+        <span class="close-btn">&times;</span>
+        <div class="item">About Us</div>
+        <div class="item">Services</div>
+        <div class="item">Use Cases</div>
+        <div class="item">Pricing </div>
+        <div class="item">Blog</div>
+    </div>
+
+    <!-- hero section start  -->
+    <div class="hero">
+        <div class="hero-left">
+            <h1>Navigating the <br> digital landscape <br> for success</h1>
+            <p>Our digital marketing agency helps businesses grow and succeed online through a range of services
+                including SEO, PPC, social media marketing, and content creation.</p>
+            <button>Book a consultation</button>
+        </div>
+        <div class="hero-right">
+            <img src="./images/Illustration.png" alt="">
+        </div>
+    </div>
+    <!-- hero section complete  -->
+    <div class="container-fluid logos">
+        <img src="./images/Company logo.png" alt="">
+        <img src="./images/Vector.png" alt="">
+        <img src="./images/Company logo (1).png" alt="">
+        <img src="./images/Company logo (2).png" alt="">
+        <img src="./images/Company logo (3).png" alt="">
+        <img src="./images/Company logo (4).png" alt="">
+    </div>
+    <!-- logos complete -->
+    <div class=" container d-flex .flex-column justify-content-start ps-0 services">
+        <h3>Services </h3>
+        <p>At our digital marketing agency, we offer a range of services to
+            help <br> businesses grow and succeed online.
+            These services
+            include
+        </p>
+    </div>
+    <!-- cards -->
+
+    <div class=" container d-flex cards justify-content-center">
+        <div class="card  bg-grey ">
+            <div class="card-body">
+                <div class="card-heading">
+                    <h3 class="text-green">Search Engine </h3>
+                    <h3 class="text-green"> Optimization </h3>
+                </div>
+                <div class="inner ">
+                    <img class="card-img" src="./images/tokyo-magnifier-web-search-with-elements 2.png" alt="">
+                </div>
+            </div>
+            <div class="card-more ">
+                <img src="./images/Icon.svg" alt="">
+                <p class="more">Learn more</p>
+            </div>
+        </div>
+        <div class="card bg-green">
+            <div class="card-body ">
+                <div class="card-heading">
+                    <h3 class="bg-light">Search Engine </h3>
+                    <h3 class="bg-light"> Optimization </h3>
+                </div>
+                <div class="inner ">
+                    <img class="card-img" src="./images/tokyo-selecting-a-value-in-the-browser-window 1.png" alt="">
+                </div>
+            </div>
+            <div class="card-more ">
+                <img src="./images/Icon.svg" alt="">
+                <p class="more">Learn more</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- working products -->
+    <div class=" container d-flex .flex-column    ps-3 services">
+        <h3>Our Working Process </h3>
+        <p>Step-by-Step Guide to Achieving <br> Your Business Goals</p>
+    </div>
+    <div class="container">
+        <div class="boxes">
+            <div class="box bg-light m-3">
+                <div class="upper" onclick="toggleAccordion(this)">
+                    <h2>01 Consultation</h2>
+                    <img src="./images/plus-icon.png" alt="">
+                </div>
+                <div class="content">
+                    <p>During the initial consultation, we will discuss your business goals and objectives, target
+                        audience,
+                        and current marketing efforts. This will allow us to understand your needs and tailor our
+                        services
+                        to best fit your requirements.</p>
+                </div>
+            </div>
+            <div class="box bg-light m-3">
+                <div class="upper" onclick="toggleAccordion(this)">
+                    <h2>02 Research and Strategy Development</h2>
+                    <img src="./images/plus-icon.png" alt="">
+                </div>
+                <div class="content">
+                    <p>During the initial consultation, we will discuss your business goals and objectives, target
+                        audience,
+                        and current marketing efforts. This will allow us to understand your needs and tailor our
+                        services
+                        to best fit your requirements.</p>
+                </div>
+            </div>
+            <div class="box bg-light m-3">
+                <div class="upper" onclick="toggleAccordion(this)">
+                    <h2>03 Implementation</h2>
+                    <img src="./images/plus-icon.png" alt="">
+                </div>
+                <div class="content">
+                    <p>During the initial consultation, we will discuss your business goals and objectives, target
+                        audience,
+                        and current marketing efforts. This will allow us to understand your needs and tailor our
+                        services
+                        to best fit your requirements.</p>
+                </div>
+            </div>
+            <div class="box bg-light m-3">
+                <div class="upper" onclick="toggleAccordion(this)">
+                    <h2>04 Review and Optimization</h2>
+                    <img src="./images/plus-icon.png" alt="">
+                </div>
+                <div class="content">
+                    <p>During the initial consultation, we will discuss your business goals and objectives, target
+                        audience,
+                        and current marketing efforts. This will allow us to understand your needs and tailor our
+                        services
+                        to best fit your requirements.</p>
+                </div>
+            </div>
+            <div class="box bg-light m-3">
+                <div class="upper" onclick="toggleAccordion(this)">
+                    <h2>05 Reporting</h2>
+                    <img src="./images/plus-icon.png" alt="">
+                </div>
+                <div class="content">
+                    <p>During the initial consultation, we will discuss your business goals and objectives, target
+                        audience,
+                        and current marketing efforts. This will allow us to understand your needs and tailor our
+                        services
+                        to best fit your requirements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- accordian end  -->
+    <!-- Contact Us -->
+    <div class=" container d-flex .flex-column justify-content-start   ps-0 services ">
+        <h3> Contact Us </h3>
+        <p>Connect with Us: Let's Discuss Your <br>
+            Digital Marketing Needs</p>
+    </div>
+
+    <div class="container d-flex  form-container ">
+        <form action="">
+            <div class="radio">
+                <div class="form-check" style="display: inline-block;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Say Hi
+                    </label>
+                </div>
+                <div class="form-check" style="display: inline-block; margin-left: 10px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Get a Quote </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <label for="user_name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="user_name" placeholder="Name">
+            </div>
+            <div class="col-12">
+                <label for="user_email" class="form-label">Email*</label>
+                <input type="email" class="form-control" id="user_email" placeholder="Email" required>
+            </div>
+            <div class="col-12">
+                <label for="user_message" class="form-label">Message*</label>
+                <textarea class="form-control" id="user_message" placeholder="Message" rows="7  " required></textarea>
+            </div>
+            <button class="btn btn-dark "> Send Message</button>
+        </form>
+        <div class="web-form d-flex flex-column ">
+            <img src="./images/Illustration-2.png" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="container bg-dark  text-light footer-container ">
+            <div class="footer-upper">
+                <div class="topsection d-flex ">
+                    <div class="topsection-left">
+                        <img src="./images/Logo-white.png" alt="">
+                    </div>
+                    <div class="topsection-center">
+                        <ul class="d-flex flex-row ">
+                            <li>About us</li>
+                            <li>Services</li>
+                            <li>Use Cases</li>
+                            <li>Pricing</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                    <div class="topsection-right d-flex">
+                        <img src="./images/Social icon-1.png" alt="">
+                        <img src="./images/Social icon-2.png" alt="">
+                        <img src="./images/Social icon-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contact d-flex flex-row ">
+                <div class="address d-flex flex-column ">
+                    <h4 class=" bg-green text-dark "> Contact Us:</h4>
+                    <p><strong>Email:</strong> <a href="mailto:info@positivus.com">info@positivus.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:555-567-8901">555-567-8901</a></p>
+                    <p><strong>Address:</strong></p>
+                    <p>1234 Main St<br>
+                        Moonstone City, Stardust State 12345</p>
+                </div>
+                <form class="contact  d-flex  flex-row ">
+                    <div>
+                        <input type="email" class="form-control  text-light border-light  " id="contact_email"
+                            placeholder="Email">
+                    </div>
+                    <div>
+                        <button class="btn bg-green text-dark btn-sub"> Subscribe to news</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="footer-bottom d-flex flex-row ">
+                <p>© 2023 Positivus. All Rights Reserved.</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
